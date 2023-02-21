@@ -15,7 +15,7 @@ let usersObject = [
 ];
 
 for (let x of usersObject) {
-  console.log(`${x.name} ${x.amount}`);
+  console.log(`${x.name}-[${x.amount}$]`);
 }
 
 // for (let i = 0; i < 3; i++) {
