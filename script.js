@@ -4,29 +4,19 @@
 
 // //for in
 
-// ///for of
-// // let users = [
-// //   { name: "bla", amount: 1000 },
-// //   { name: "bla", amount: 1000 },
-// // ];
-
-// let usersObject = [
+// let users = [
 //   { name: "bla", amount: 1000 },
-//   { name: "or", amount: 1000 },
+//   { name: "bla", amount: 1000 },
 // ];
 
-// for (let x of usersObject) {
-//   console.log(`${x.name} ${x.amount}`);
-// }
+let usersObject = [
+  { name: "Moran", amount: 1000 },
+  { name: "or", amount: 1000 },
+];
 
-// let moran = 0;
-// while (moran < 10) {
-//   console.log(moran);
-//   moran++;
-
-//   if (moran > 3) {
-//   }
-// }
+for (let x of usersObject) {
+  console.log(`${x.name} ${x.amount}`);
+}
 
 // for (let i = 0; i < 3; i++) {
 //   if (i >= 2) {
@@ -61,17 +51,17 @@ let drawStars = "";
 //   console.log(drawStars);
 // }
 
-// let stars = [];
-// let drawStars2 = " ";
-// for (i = 0; i < numLevles; i++) {
-//   drawStars2 += "*";
-//   stars.push(drawStars2);
-//   // console.log(drawStars2);5
-// }
+let stars = [];
+let drawStars2 = " ";
+for (i = 0; i < numLevles; i++) {
+  drawStars2 += "*";
+  stars.push(drawStars2);
+  console.log(drawStars2);
+}
 
-// for (i = 0; i < numLevles; i++) {
-//   console.log(stars.pop());
-// }
+for (i = 0; i < numLevles; i++) {
+  console.log(stars.pop());
+}
 
 spaceCounter = Math.round(numLevles);
 for (i = 0; i < numLevles; i++) {
