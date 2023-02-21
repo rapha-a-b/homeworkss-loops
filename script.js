@@ -63,7 +63,7 @@ for (i = 0; i < numLevles; i++) {
   console.log(stars.pop());
 }
 
-spaceCounter = Math.round(numLevles);
+spaceCounter = Math.round(numLevles / 2);
 for (i = 0; i < numLevles; i++) {
   drawStars = "";
   if (i % 2 === 0) {
